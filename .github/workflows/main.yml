@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: "login to docker"
-        run: docker login --username ${{ secrets.docker username}} --password ${{ secrets.docker token}}
+        run: docker login --username ${{ secrets.docker_username }} --password ${{ secrets.docker_token }}
