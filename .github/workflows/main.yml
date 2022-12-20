@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing get hub'
-        run: pwd
-      - name: 'testing print'
-        run: echo basma
+      - name: 'prinying folder cntents'
+        run: ls
+      
   
